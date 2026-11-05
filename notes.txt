@@ -1,0 +1,31 @@
+the powerful of hashing is that if you want for example to return hashed pasword you can't return it again,if you can it called encryption.
+
+the result text from hashing operation called cipher text.
+
+salt round means hashing is done how many times.
+
+if salt round =3 that means hashing is done 8 times.
+
+tools for hashing is crypto(built-in) ,bycrypt,bycryptjs ,argon2.
+
+in Encryption You have a key you can with it decryption the data.
+
+Encryption is symmetric and assymetric.
+
+symmetric encryption is when the encryption and decryption in the same server and key on the same server .
+
+assymetric eccryption if you have two persons called pop and alice pop want to send message to alice pop ecrypted the message with her public key and alice decrypted the message with her private key.
+
+tools to encryption crypto(built-in) and cryptoJs we use cryptoJs.
+
+authentication means user login to my system or no.
+
+when the user logged-in to my system i create to hin token if he want to do any thing in my system such as get his profile he use this token , without token i can't know him.
+
+token encrypted.
+
+the first part of token is the algorithm create the token and the encryption type.
+the second part of token is payload means body of token.
+the third part of token is signature which make your token secure.
+
+authorization you make sure of permissions of user.
